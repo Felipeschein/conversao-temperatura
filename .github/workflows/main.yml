@@ -36,5 +36,5 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            felipeschein/aula-conversao-temperatura:v1
+            felipeschein/aula-conversao-temperatura:${{github.run_number}}
             felipeschein/aula-conversao-temperatura:latest
